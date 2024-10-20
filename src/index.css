@@ -1,0 +1,132 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header{
+  position: sticky;
+  background-color: #0b1530;
+  color: white;
+  padding: 10px;
+  top: 0;
+  margin-left: 40px;
+  z-index: 999;
+}
+
+body {
+  text-align: center;
+  background-color: rgb(245, 245, 245);
+  font-family: sans-serif;
+}
+
+.container {
+  padding: 20px;
+}
+
+
+nav {
+  height: 100%;
+  width: 7em;
+  background-color:#0b1530;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+nav ul {
+  list-style: none;
+  margin-left: 0px;
+}
+
+nav li {
+  padding: 10px;
+  display: flex;
+  font-size: 12px;
+}
+
+nav li a {
+  color: white;
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 4px;
+  display: block;
+}
+
+nav li a {
+  color: white;
+  text-decoration: none;
+}
+
+
+
+button {
+  color: rgb(31, 31, 39);
+  background-color: white;
+  padding: 4px;
+  margin: 4px;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h4 {
+  font-size: 15px;
+}
+
+p {
+  font-size: 14px;
+}
+
+.Card {
+  background-color: antiquewhite;
+  border: 1px solid;
+  box-shadow: 2px 2px 3px;
+}
+
+.Cardtitle {
+  text-align: center;
+}
+
+.Cardcontent {
+  text-align: center;
+  color: black;
+}
+
+.modules {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modules h2 {
+  color: rgb(34, 12, 68);
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.modules Link {
+  color: gray;
+}
+
+.input-field {
+  margin: 15px;
+  width: 100%;
+}
+
